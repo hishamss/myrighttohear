@@ -1,0 +1,21 @@
+.footer-container {
+    background-color: #403e3f;
+    height: 160px;
+}
+.footer-subContainer {
+    height: 100%;
+    color:#f1f5fb !important;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container a {
+    color:#f1f5fb !important;
+}
+
+.copyRight {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
