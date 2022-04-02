@@ -1,6 +1,5 @@
 import React from 'react';
 import { Row, Col, Container, Nav, Button } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 function Header() {
   return (
@@ -12,7 +11,7 @@ function Header() {
             <img src='logo-resized.jpg' id='logo' alt='main logo' />
 
           </Col>
-          <Col md={8} className="navbar-container">
+          <Col md={9} className="navbar-container">
             <Nav className="justify-content-around navbar">
               <Nav.Item>
                 ABOUT
@@ -25,12 +24,32 @@ function Header() {
                 GET INVOLVED
               </Nav.Item>
               <Nav.Item>
+                NEWSROOM
+              </Nav.Item>
+              <Nav.Item>
                 <Button id="donate-btn">DONATE</Button>
               </Nav.Item>
             </Nav>
           </Col>
-          <Col md={3}>
-          <a href="facebook.com"><img src="facebook.png" alt="facebook link"/></a>
+          <Col md={2} className='social-links-container'>
+            <Nav>
+              <Nav.Item>
+                <Nav.Link href='facebook.com' target="_blank"><img className='icons' src="facebook.svg" alt="facebook link" /></Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href='instagram.com' target="_blank"><img className='icons' src="instagram.svg" alt="instagram link" /></Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href='linkedin.com' target="_blank"><img className='icons' src="linkedin.svg" alt="linkedin link" /></Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href='www.twitter.com' target="_blank"><img className='icons' src="twitter.svg" alt="twitter link" /></Nav.Link>
+              </Nav.Item>
+            </Nav>
+
+
+
+
           </Col>
         </Row>
       </Container>

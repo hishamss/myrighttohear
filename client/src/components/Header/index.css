@@ -35,3 +35,14 @@
     border-radius: 0;
 }
 
+.icons {
+    width: 20px;
+    height: 20px;
+}
+
+.social-links-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
