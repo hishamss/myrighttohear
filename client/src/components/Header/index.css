@@ -2,10 +2,11 @@
     background-color: #403e3f;
     height: 40px;
 }
+
 .header-container {
     background-color: #fefefe;
 
-        height: 100px;
+    height: 100px;
 }
 
 .header-container-row {
@@ -13,18 +14,24 @@
 
 }
 
-#logo{
+#logo {
     position: relative;
-    top:-20px;
+    top: -20px;
     border-radius: 50%;
 
 }
+
 .navbar-container {
     height: 100%;
 }
+
 .navbar {
     height: 100%;
     padding: 0;
+    color: #403e3f;
+    font-family: 'Lustria', serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
 #donate-btn {
@@ -33,6 +40,11 @@
     height: 60px;
     border: 0;
     border-radius: 0;
+    font-weight: bold;
+}
+
+#donate-btn:hover {
+    background-color: #16898d;
 }
 
 .icons {
@@ -46,3 +58,8 @@
     height: 100%;
 }
 
+.heart-icon {
+    margin-left: 15px;
+    position: relative;
+    top:-2px;
+}

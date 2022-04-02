@@ -27,23 +27,23 @@ function Header() {
                 NEWSROOM
               </Nav.Item>
               <Nav.Item>
-                <Button id="donate-btn">DONATE</Button>
+                <Button id="donate-btn">DONATE<span className='heart-icon'><img className='icons' src="heart.svg" alt="heart icon"/></span></Button>
               </Nav.Item>
             </Nav>
           </Col>
           <Col md={2} className='social-links-container'>
             <Nav>
               <Nav.Item>
-                <Nav.Link href='facebook.com' target="_blank"><img className='icons' src="facebook.svg" alt="facebook link" /></Nav.Link>
+                <Nav.Link href='https://www.facebook.com/' target="_blank"><img className='icons' src="facebook.svg" alt="facebook link" /></Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href='instagram.com' target="_blank"><img className='icons' src="instagram.svg" alt="instagram link" /></Nav.Link>
+                <Nav.Link href='https://www.instagram.com/' target="_blank"><img className='icons' src="instagram.svg" alt="instagram link" /></Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href='linkedin.com' target="_blank"><img className='icons' src="linkedin.svg" alt="linkedin link" /></Nav.Link>
+                <Nav.Link href='https://www.linkedin.com/' target="_blank"><img className='icons' src="linkedin.svg" alt="linkedin link" /></Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href='www.twitter.com' target="_blank"><img className='icons' src="twitter.svg" alt="twitter link" /></Nav.Link>
+                <Nav.Link href='https://twitter.com/' target="_blank"><img className='icons' src="twitter.svg" alt="twitter link" /></Nav.Link>
               </Nav.Item>
             </Nav>
 
