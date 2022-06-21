@@ -1,5 +1,6 @@
 import React from 'react';
-import { Row, Col, Container, Nav, Button } from 'react-bootstrap'
+import { Row, Col, Container, Nav, Button, NavDropdown } from 'react-bootstrap'
+import {Link} from "react-router-dom"
 import './index.css'
 function Header() {
   return (
@@ -13,9 +14,12 @@ function Header() {
           </Col>
           <Col md={9} className="navbar-container">
             <Nav className="justify-content-around navbar">
-              <Nav.Item>
-                ABOUT
-              </Nav.Item>
+              <NavDropdown className="NavDropdownItems" title="ABOUT" >
+                <NavDropdown.Item ><Link className="headerNavLinks" to="/contactus">Contact Us</Link></NavDropdown.Item>
+                <NavDropdown.Item><Link className="headerNavLinks" to ="/whoweare">Who We Are</Link></NavDropdown.Item>
+              </NavDropdown>
+                
+             
               <Nav.Item>
                 OUR PROGRAMS
               </Nav.Item>
