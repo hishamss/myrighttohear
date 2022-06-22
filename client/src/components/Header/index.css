@@ -39,6 +39,7 @@
 
 .headerNavLinks {
     color: #403e3f !important;
+    text-decoration: none !important;
 }
 
 #donate-btn {

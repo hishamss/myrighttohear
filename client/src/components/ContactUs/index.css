@@ -1,0 +1,40 @@
+#contactus-container {
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+#contactImage-container {
+    background: black;
+}
+
+#contactImage{
+    opacity: 0.7;
+    object-fit: cover;
+    width: 100%;
+}
+
+#contactus-form-container {
+    margin-top: 20px;
+   max-width:50%;
+
+}
+
+#contactus-form {
+    margin-top: 20px;
+}
+
+#contactus-form-sbm-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #a3b93b;
+    width: 140px;
+    height: 60px;
+    border: 0;
+    border-radius: 0;
+    font-weight: bold;
+
+}
+
+#contactus-form-sbm-btn:hover {
+    background-color: #758a10;
+}
