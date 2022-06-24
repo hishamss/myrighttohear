@@ -3,6 +3,10 @@
     margin-bottom: 40px;
 }
 
+.contactus-from-group {
+    margin-bottom: 10px;
+}
+
 #contactImage-container {
     background: black;
 }
@@ -37,4 +41,8 @@
 
 #contactus-form-sbm-btn:hover {
     background-color: #758a10;
+}
+
+.contactus-form-message {
+    color: red;
 }
