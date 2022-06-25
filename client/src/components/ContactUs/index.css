@@ -27,7 +27,7 @@
     margin-top: 20px;
 }
 
-#contactus-form-sbm-btn {
+.contactus-form-sbm-btn {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #a3b93b;
@@ -39,9 +39,32 @@
 
 }
 
-#contactus-form-sbm-btn:hover {
+.contactus-form-sbm-btn:focus {
+    background-color: #a3b93b;
+}
+
+.contactus-form-sbm-btn:hover {
     background-color: #758a10;
 }
+
+.contactus-form-sbm-btn:disabled {
+    background-color: grey;
+}
+
+
+/* .processing-contactus-form-sbm-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: grey;
+    width: 140px;
+    height: 60px;
+    border: 0;
+    border-radius: 0;
+    font-weight: bold;
+}
+.processing-contactus-form-sbm-btn:hover {
+    background-color: grey;
+} */
 
 .contactus-form-message {
     color: red;
